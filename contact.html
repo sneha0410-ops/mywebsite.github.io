@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | Sneha Yadav</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursor-follower"></div>
+  <div class="noise"></div>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">SY<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <div class="nav-hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="page-hero-content">
+      <p class="section-tag">// get in touch</p>
+      <h1 class="page-title">Let's <span class="highlight">Talk</span></h1>
+    </div>
+    <div class="page-hero-bg-text">CONTACT</div>
+  </section>
+
+  <section class="contact-section">
+    <div class="contact-grid">
+
+      <!-- Left Info -->
+      <div class="contact-info reveal">
+        <h2>Open to Opportunities</h2>
+        <p>
+          I'm actively looking for <strong>internship opportunities</strong> in web development,
+          AI/ML, or full-stack engineering. If you have a project, role, or collaboration in mind —
+          I'd love to hear from you!
+        </p>
+
+        <div class="contact-links">
+          <a href="mailto:y.sneha0410@gmail.com" class="contact-link-item">
+            <div class="cl-icon">✉️</div>
+            <div class="cl-text">
+              <span class="cl-label">Email</span>
+              <span class="cl-value">y.sneha0410@gmail.com</span>
+            </div>
+          </a>
+          <a href="tel:+919518703005" class="contact-link-item">
+            <div class="cl-icon">📱</div>
+            <div class="cl-text">
+              <span class="cl-label">Phone</span>
+              <span class="cl-value">+91 9518703005</span>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/sneha-yadav" target="_blank" class="contact-link-item">
+            <div class="cl-icon">💼</div>
+            <div class="cl-text">
+              <span class="cl-label">LinkedIn</span>
+              <span class="cl-value">linkedin.com/in/sneha-yadav</span>
+            </div>
+          </a>
+          <div class="contact-link-item">
+            <div class="cl-icon">📍</div>
+            <div class="cl-text">
+              <span class="cl-label">Location</span>
+              <span class="cl-value">Maharashtra, India</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="availability-badge">
+          <span class="avail-dot"></span>
+          Available for internships — 2025
+        </div>
+      </div>
+
+      <!-- Right Form -->
+      <div class="contact-form-wrap reveal">
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="e.g. Rahul Sharma" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Internship Opportunity / Collaboration" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or opportunity..."></textarea>
+          </div>
+          <button type="submit" class="btn-primary btn-full" id="submitBtn">
+            <span class="btn-text">Send Message</span>
+            <span class="btn-icon">→</span>
+          </button>
+          <div class="form-success" id="formSuccess">
+            <span>🎉</span> Message sent! I'll reply soon.
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="final-cta">
+    <div class="final-cta-inner reveal">
+      <p class="section-tag">// let's connect</p>
+      <h2>Find me online</h2>
+      <div class="social-grid">
+        <a href="mailto:y.sneha0410@gmail.com" class="social-card">
+          <div class="social-icon">✉️</div>
+          <span>Email</span>
+        </a>
+        <a href="https://www.linkedin.com/in/sneha-yadav" target="_blank" class="social-card">
+          <div class="social-icon">in</div>
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://github.com" target="_blank" class="social-card">
+          <div class="social-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="24"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.3 9.42 7.88 10.95.58.1.79-.25.79-.55v-1.92c-3.2.7-3.87-1.54-3.87-1.54-.52-1.33-1.27-1.68-1.27-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.75 2.67 1.24 3.32.95.1-.74.4-1.24.73-1.52-2.55-.29-5.23-1.27-5.23-5.66 0-1.25.45-2.27 1.18-3.07-.12-.3-.51-1.45.11-3.03 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.18-1.49 3.14-1.18 3.14-1.18.63 1.58.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.4-2.69 5.37-5.25 5.65.41.35.78 1.05.78 2.12v3.14c0 .3.2.66.8.55A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+          </div>
+          <span>GitHub</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-copy">© 2025 Sneha Yadav · Made with ❤️ in Maharashtra</p>
+      <div class="footer-links">
+        <a href="mailto:y.sneha0410@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/sneha-yadav" target="_blank">LinkedIn</a>
+        <a href="https://github.com" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

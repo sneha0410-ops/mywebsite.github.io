@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects | Sneha Yadav</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursor-follower"></div>
+  <div class="noise"></div>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">SY<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html" class="active">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="page-hero-content">
+      <p class="section-tag">// what i've built</p>
+      <h1 class="page-title">My <span class="highlight">Projects</span></h1>
+    </div>
+    <div class="page-hero-bg-text">PROJECTS</div>
+  </section>
+
+  <!-- Projects Grid -->
+  <section class="projects-section">
+    <div class="projects-full-grid">
+
+      <!-- Project 1 -->
+      <div class="project-full-card reveal">
+        <div class="proj-left">
+          <div class="proj-mockup yoga">
+            <div class="mockup-screen">
+              <div class="mockup-header">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="mockup-body">
+                <div class="mockup-icon">🧘</div>
+                <div class="mockup-label">AI Yoga Coach</div>
+                <div class="mockup-bar"></div>
+                <div class="mockup-bar short"></div>
+                <div class="pose-dots">
+                  <div class="pose-dot"></div>
+                  <div class="pose-dot"></div>
+                  <div class="pose-dot"></div>
+                  <div class="pose-dot active"></div>
+                  <div class="pose-dot"></div>
+                </div>
+              </div>
+            </div>
+            <div class="proj-glow yoga-glow"></div>
+          </div>
+        </div>
+        <div class="proj-right">
+          <div class="proj-num">01</div>
+          <h2 class="proj-title">AI Yoga Coach</h2>
+          <p class="proj-type">Web-Based AI Application</p>
+          <p class="proj-desc">
+            A web-based AI-powered yoga coach that uses <strong>Google Teachable Machine</strong>
+            and <strong>TensorFlow.js</strong> for real-time human pose detection. The app guides
+            users through yoga poses, evaluates their form via webcam, and provides live feedback —
+            making yoga accessible from any browser.
+          </p>
+          <div class="proj-tech-list">
+            <h4>Tech Stack</h4>
+            <div class="tech-chips">
+              <span class="chip">Google Teachable Machine</span>
+              <span class="chip">TensorFlow.js</span>
+              <span class="chip">JavaScript</span>
+              <span class="chip">HTML5</span>
+              <span class="chip">CSS3</span>
+            </div>
+          </div>
+          <div class="proj-features">
+            <h4>Key Features</h4>
+            <ul>
+              <li>Real-time pose detection via webcam</li>
+              <li>AI-powered form evaluation and feedback</li>
+              <li>Browser-based — no installation required</li>
+              <li>Custom-trained ML model</li>
+            </ul>
+          </div>
+          <div class="proj-links">
+            <a href="#" class="btn-primary" title="Coming soon">View Project →</a>
+            <a href="#" class="btn-outline">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Divider -->
+      <div class="proj-divider"></div>
+
+      <!-- Project 2 -->
+      <div class="project-full-card reverse reveal">
+        <div class="proj-left">
+          <div class="proj-mockup habit">
+            <div class="mockup-screen terminal">
+              <div class="mockup-header">
+                <span></span><span></span><span></span>
+                <span class="term-title">habit-tracker</span>
+              </div>
+              <div class="mockup-body terminal-body">
+                <div class="term-line"><span class="term-prompt">$</span> ./habit-tracker</div>
+                <div class="term-line"><span class="term-green">✔</span> Morning Run — done</div>
+                <div class="term-line"><span class="term-green">✔</span> Read 20 pages — done</div>
+                <div class="term-line"><span class="term-yellow">◌</span> Code practice — pending</div>
+                <div class="term-line"><span class="term-prompt">$</span> <span class="term-cursor">█</span></div>
+              </div>
+            </div>
+            <div class="proj-glow habit-glow"></div>
+          </div>
+        </div>
+        <div class="proj-right">
+          <div class="proj-num">02</div>
+          <h2 class="proj-title">Command-Line Habit Tracker</h2>
+          <p class="proj-type">Desktop Application</p>
+          <p class="proj-desc">
+            A terminal-based <strong>habit tracking application</strong> built with C and C++ for
+            performance and efficiency. Features a graphical user interface (GUI) layer on top of the
+            CLI backend, letting users track daily habits, view streaks, and stay consistent — all
+            without leaving their terminal.
+          </p>
+          <div class="proj-tech-list">
+            <h4>Tech Stack</h4>
+            <div class="tech-chips">
+              <span class="chip">C</span>
+              <span class="chip">C++</span>
+              <span class="chip">GUI Framework</span>
+              <span class="chip">File I/O</span>
+            </div>
+          </div>
+          <div class="proj-features">
+            <h4>Key Features</h4>
+            <ul>
+              <li>Daily habit tracking with streaks</li>
+              <li>Persistent data storage</li>
+              <li>Lightweight GUI over terminal</li>
+              <li>Fast C/C++ backend performance</li>
+            </ul>
+          </div>
+          <div class="proj-links">
+            <a href="#" class="btn-primary">View Project →</a>
+            <a href="#" class="btn-outline">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- More Coming -->
+    <div class="more-projects">
+      <div class="more-inner reveal">
+        <div class="more-icon">🚀</div>
+        <h3>More projects coming soon!</h3>
+        <p>Currently building exciting things. Stay tuned and follow me on GitHub.</p>
+        <a href="https://github.com" class="btn-outline" target="_blank">Follow on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-copy">© 2025 Sneha Yadav · Made with ❤️ in Maharashtra</p>
+      <div class="footer-links">
+        <a href="mailto:y.sneha0410@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/sneha-yadav" target="_blank">LinkedIn</a>
+        <a href="https://github.com" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
